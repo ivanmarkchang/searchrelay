@@ -151,6 +151,13 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
+config.local.toml
+.searchrelay/
+*.sqlite3
+*.sqlite3-*
+.DS_Store
 .envrc
 .venv
 env/
